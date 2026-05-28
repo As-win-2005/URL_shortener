@@ -1,6 +1,6 @@
-# SmartLink — URL Shortener with Analytics Dashboard
+# URL Shortener with Analytics Dashboard
 
-SmartLink is a full-stack URL shortener built for a hackathon project. You can create short links with optional custom aliases, track clicks with browser/device analytics, generate QR codes, and share a public stats page — all from a practical SaaS-style dashboard.
+URL SHORTENER is a full-stack URL shortener built for a hackathon project. You can create short links with optional custom aliases, track clicks with browser/device analytics, generate QR codes, and share a public stats page — all from a practical SaaS-style dashboard.
 
 
 
@@ -67,23 +67,6 @@ Most link shorteners hide analytics behind paid tiers. SmartLink focuses on what
 
 ---
 
-## Screenshots
-
-### Landing Page
-> Clean homepage with feature overview and modern SaaS-style layout.
-
-![Landing Page](./screenshots/landing-page.png)
-
----
-
-### Login Page
-> JWT-based authentication with protected routes.
-
-![Login Page](./screenshots/login-page.png)
-
----
-
----
 
 ## Folder Structure
 
