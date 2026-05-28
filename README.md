@@ -2,9 +2,7 @@
 
 SmartLink is a full-stack URL shortener built for a hackathon project. You can create short links with optional custom aliases, track clicks with browser/device analytics, generate QR codes, and share a public stats page — all from a practical SaaS-style dashboard.
 
-**Demo video:** https://drive.google.com/file/d/1qXFhrtCnw5Z7wqfCLMhK8kaRt18pqUXo/view?usp=sharing
 
----
 
 ## Project Overview
 
@@ -84,39 +82,6 @@ Most link shorteners hide analytics behind paid tiers. SmartLink focuses on what
 ![Login Page](./screenshots/login-page.png)
 
 ---
-
-### Dashboard
-> User dashboard showing shortened URLs, click counts, and actions.
-
-![Dashboard](./screenshots/dashboard.png)
-
----
-
-### URL Creation
-> Creating a short URL with custom alias and expiry date.
-
-![Create URL](./screenshots/create-url.png)
-
----
-
-### QR Code Feature
-> Automatically generated QR code for each shortened link.
-
-![QR Code](./screenshots/qr-code.png)
-
----
-
-### Analytics Dashboard
-> Real-time analytics including clicks, browser/device tracking, and charts.
-
-![Analytics](./screenshots/analytics.png)
-
----
-
-### MongoDB Collections
-> MongoDB collections storing users, URLs, and visit analytics.
-
-![MongoDB](./screenshots/mongodb.png)
 
 ---
 
@@ -311,22 +276,3 @@ AI assisted with boilerplate and docs; layout choices, naming, and styling were 
 2. Env: `VITE_API_URL=https://your-api.onrender.com/api`.
 3. Deploy.
 
-Update `FRONTEND_URL` on backend after Vercel deploy.
----
-
-## Video Walkthrough
-
-Demo Video:
-https://drive.google.com/file/d/1qXFhrtCnw5Z7wqfCLMhK8kaRt18pqUXo/view?usp=sharing
-
-The demo showcases:
-- Authentication flow
-- URL shortening
-- QR code generation
-- Real-time analytics tracking
-- MongoDB data storage
-- Backend routing and redirects
-
----
-
-This project is a part of a hackathon run by https://katomaran.com
